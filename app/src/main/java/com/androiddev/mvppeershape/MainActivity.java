@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.jakewharton.rxbinding.view.RxView;
 import com.jakewharton.rxbinding.widget.RxTextView;
-git
+
 
 public class MainActivity extends AppCompatActivity {
 
