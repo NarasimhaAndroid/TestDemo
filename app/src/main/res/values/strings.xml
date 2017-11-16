@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">MvpPeerShape</string>
+    <string name="app_name">PeerShape</string>
+    <string name="action_settings">Settings</string>
+    <string name="internetconn">Please Connect Internet and try</string>
+    <string name="signuplink"><u>Sign Up</u></string>
+    <string name="signinlink"><u>Log In</u></string>
+
+
+    <string name="pwdlink"><u>Forgot Password?</u></string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="action_done">Done</string>
+    <string name="backtologin"><u>Back to Login</u></string>
+    <string name="app_id">492853840906102</string>
+
+    <string name="terms"><u>Terms</u></string>
+    <string name="policy"><u>Privacy Policy</u></string>
+
+
 </resources>
