@@ -55,13 +55,5 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void foo(boolean type){
-       value=type;
 
-
-    }
-
-   public void foo2(){
-
-    }
 }
