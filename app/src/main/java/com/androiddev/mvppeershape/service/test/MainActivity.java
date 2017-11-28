@@ -31,19 +31,17 @@ public class MainActivity extends AppCompatActivity {
 
         //boolean b=h.setType2();
 
-        //Log.d("Main",Boolean.toString(b));
+
         String s=h.getValue();
-        Log.d("TAG",s);
 
 
-        //button.setOnClickListener(v -> Log.d("siddi","ButtonClicked"));
+
+
         RxView.clicks(button).subscribe(aVoid -> {
             //Log.d("siddi","ButtonClicked");
 
             h.setType(false);
-            //boolean b1=h.setType2();
-
-            //Log.d("Main",Boolean.toString(b1));
+            
             String s1=h.getValue();
             Log.d("TAG",s1);
 
