@@ -15,7 +15,7 @@ import com.jakewharton.rxbinding.widget.RxTextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Boolean value=false;
+    public Boolean value;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.button);
         TextView textView = (TextView) findViewById(R.id.textView);
         EditText editText = (EditText) findViewById(R.id.editText);
-        //foo2();
+        
 
         Helper h=new Helper();
         h.setType(true);
