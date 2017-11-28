@@ -15,7 +15,7 @@ import com.jakewharton.rxbinding.widget.RxTextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Boolean value=false;
+    public Boolean value;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
