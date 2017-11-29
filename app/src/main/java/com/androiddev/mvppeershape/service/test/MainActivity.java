@@ -13,7 +13,7 @@ import com.jakewharton.rxbinding.widget.RxTextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Boolean value;
+    public boolean value;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
