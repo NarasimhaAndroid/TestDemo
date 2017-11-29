@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.button);
         TextView textView = (TextView) findViewById(R.id.textView);
         EditText editText = (EditText) findViewById(R.id.editText);
+        EditText editText_Two = (EditText) findViewById(R.id.editText_Two);
 
 
         Helper h = new Helper();
