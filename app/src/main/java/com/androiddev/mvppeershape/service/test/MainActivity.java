@@ -13,7 +13,7 @@ import com.jakewharton.rxbinding.widget.RxTextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public Boolean value;
+    public boolean value;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button button = (Button) findViewById(R.id.button);
         TextView textView = (TextView) findViewById(R.id.textView);
         EditText editText = (EditText) findViewById(R.id.editText);
-        EditText editText_Two = (EditText) findViewById(R.id.editText_Two);
+        EditText editText_Two = (EditText) findViewById(R.id.edittext_two);
 
 
         Helper h = new Helper();
