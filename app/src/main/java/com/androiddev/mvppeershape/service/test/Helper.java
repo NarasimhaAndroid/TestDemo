@@ -1,4 +1,4 @@
-package com.androiddev.mvppeershape.service;
+package com.androiddev.mvppeershape.service.test;
 
 import android.util.Log;
 
@@ -8,17 +8,17 @@ public class Helper {
     public boolean value = true;
 
 
-    public boolean setType(boolean type){
-        value=type;
+    public boolean setType(boolean type) {
+        value = type;
 
-        Log.d("Siddi0",Boolean.toString(value));
+        Log.d("Siddi0", Boolean.toString(value));
 
         return value;
     }
 
-    public boolean setType2(){
+    public boolean setType2() {
 
-        Log.d("Siddi1",Boolean.toString(value));
+        Log.d("Siddi1", Boolean.toString(value));
 
         return value;
     }
