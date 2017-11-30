@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
             h.setType(false);
 
         });
-        RxTextView.textChanges(editText)
+        RxTextView.textChanges(editText_One)
                 .subscribe(charSequence -> {
 
                 });
