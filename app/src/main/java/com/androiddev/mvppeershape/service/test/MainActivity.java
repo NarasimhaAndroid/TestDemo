@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         Helper h = new Helper();
-        h.setType(true);
+        //h.setType(true);
 
         RxView.clicks(button).subscribe(aVoid -> {
 
